@@ -1,6 +1,6 @@
 - name: Add EPEL repository
   yum:
-    name: http://rpmfind.net/linux/epel/7/x86_64/Packages/e/epel-release-7-12.noarch.rpm
+    name: epel-release
     state: present
 
 - name: Install basic packages
