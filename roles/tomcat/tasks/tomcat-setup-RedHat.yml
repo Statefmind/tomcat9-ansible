@@ -1,7 +1,8 @@
 - name: Add EPEL repository
   yum:
     name: epel-release
-    state: present
+    state: latest
+    become: True
 
 - name: Install basic packages
   package:
