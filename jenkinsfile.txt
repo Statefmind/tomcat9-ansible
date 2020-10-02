@@ -3,7 +3,7 @@ pipeline {
     stages{
       stage('SCM Checkout'){
         steps{
-	  git 'https://github.com/danikgithub/ansible-tomcat8-install.git'
+	  git 'https://github.com/danikgithub/tomcat9-ansible.git'
         }
       }
       stage('Execute Ansible') {
